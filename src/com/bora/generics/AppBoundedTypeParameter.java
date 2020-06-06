@@ -19,6 +19,13 @@ package com.bora.generics;
  *
  */
 
+class Person implements Comparable<Person>{
+
+    @Override
+    public int compareTo(Person o) {
+        return 0;
+    }
+}
 
 public class AppBoundedTypeParameter {
     public static <T extends  Comparable<T>> T calculateMin(T t1, T t2){

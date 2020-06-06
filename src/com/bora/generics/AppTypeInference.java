@@ -45,6 +45,7 @@ public class AppTypeInference {
 
         // "type witness"
         AppTypeInference.<String>addStore("Daniel", list);
+        AppTypeInference.<String>addStore("Bon", list);
 
     }
 }
